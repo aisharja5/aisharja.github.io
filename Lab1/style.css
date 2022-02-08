@@ -1,1 +1,11 @@
-body{background-color: rgb(225,205,178);}
+/* Style for heading 1 */
+h1{font-family: Impact;}
+
+/* Style for heading 2 */
+h2{color:rgb(109,104,117)}
+
+/* Style for body */
+body{background-color: rgb(225,205,178);
+    font-family: Georgia;
+    font-size: medium;}
+
