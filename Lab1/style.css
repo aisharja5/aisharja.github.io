@@ -1,0 +1,17 @@
+/* Style for heading 1 */
+h1{font-family: Impact;
+    font-size: 30pt;
+    text-align:center;}
+
+/* Style for heading 2 */
+h2{color:rgb(109,104,117);
+    font-size:20pt;}
+
+/* Style for body */
+body{background-color: rgb(225,205,178);
+    font-family: Georgia;
+    font-size: 12pt;
+    text-align:left;}
+
+img{text-align:centerl}
+
