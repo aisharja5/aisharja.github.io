@@ -12,3 +12,7 @@ body{background-color: rgb(225,205,178);
     font-family: Georgia;
     font-size: 12pt;
     text-align:left;}
+
+/* Style for table*/
+table, th, td {
+    border: 1px solid rgb(48, 19, 5)}
