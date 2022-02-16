@@ -1,3 +1,9 @@
+/*page margins*/
+*{
+    margin: 1px;
+    padding: 1px; 
+}
+
 /* Style for heading 1 */
 h1{font-family: Impact;
     font-size: 30pt;
@@ -13,6 +19,22 @@ body{background-color: rgb(225,205,178);
     font-size: 12pt;
     text-align:left;}
 
+div {
+    width: 1000px;
+    height: 80px;
+    padding: 15px; /* set padding for all four sides */
+    text-align: left;
+    margin: 1px auto; /* set top and bottom margin to 20 pixels, and 
+    left and right margin to auto */
+}
+    
+
+/*Style for list*/
+ul>li{
+    list-style:circle;
+}
+
 /* Style for table*/
 table, th, td {
+    text-align: center;
     border: 1px solid rgb(48, 19, 5)}
