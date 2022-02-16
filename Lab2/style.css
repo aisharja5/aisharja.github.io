@@ -4,11 +4,6 @@
     padding: 1px; 
 }
 
-/* declaration for our first CSS class */
-.grey-text {
-    color:grey;
-    font-weight:lighter;
-}
 /* Style for heading 1 */
 h1{font-family: Impact;
     font-size: 30pt;
