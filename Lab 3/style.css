@@ -27,12 +27,13 @@ div {
     margin: 1px auto; /* set top and bottom margin to 20 pixels, and 
     left and right margin to auto */
 }
-    
 
-/*Style for list*/
+    
+/*Style for list
 ul>li{
     list-style:circle;
 }
+*/
 
 /* Style for table*/
 table, th, td {
