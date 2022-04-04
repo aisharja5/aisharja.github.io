@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .weather{
+    font-family: "Nunito",sans-serif;
+    background-color: rgba(218, 193, 83, 0.973);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e6dbdb9c;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+ 
+  .intro{
+      margin: 100px;
+      font-size: 50px;
+      text-align: center;
+      color: rgb(46, 29, 5);
+  }
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .weather h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .weather p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
+  
+
+  .login-body{
+      background-color: rgba(218, 193, 83, 0.973);
+  }
+
+  .login{
+    margin:10%;
+    padding:0px;
+    text-align:center;
+    align:center;
+    font-size: 30px;
+  }
+
+  button{
+    background-color: #f0f18f; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
