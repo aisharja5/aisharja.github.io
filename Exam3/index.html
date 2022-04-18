@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+  
+<body>
+
+    <h1 style="font-size: 76px; color: antiquewhite;">Dictionary App</h1>
+    <section class="input_container">
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Enter a word to get the definition!" id="input">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="data_container">
+        <span class="loading">Please try again</span>
+        <p class="def"></p> <br>
+        <div class="audio"></div>
+        <div class="not__found"></div>
+        <div class="img"></div>
+    </section>
+<br>
+<div style="margin-top: 1px;">
+    <button type="button" onclick="window.location.href='login.html'">Logout</button>
+  </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

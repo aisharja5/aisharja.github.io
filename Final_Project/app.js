@@ -1,3 +1,4 @@
+//Variables for connecting to API 
 var input = document.querySelector('.input_text');
 var main = document.querySelector('#city');
 var temp = document.querySelector('.temp');
@@ -18,3 +19,5 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=a
 
 .catch(err => alert("Incorrect! Please enter accurate name"));
 })
+
+

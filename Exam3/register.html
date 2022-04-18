@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary app</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+        form{
+            text-align: left;
+        }
+
+        input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="login-body">
+    <br>
+    <h1 style="font-size: 76px; color: antiquewhite;">Dictionary App</h1>
+    <br><br><br>
+    <div>
+        <form action="action_page.php" method="post" class="login">
+            <div class="container">
+                <label for="email"><b>Email: </label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <br>
+                <label for="uname"><b>Username: </b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+              <label for="psw"><b>Password: </b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+            <div style="margin-top: 20px;">
+                <button type="button" onclick="window.location.href='index.html'">Register!</button>
+            </div>
+              
+          </form>
+    </div>
+</body>
+</html>
